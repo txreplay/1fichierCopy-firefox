@@ -1,0 +1,20 @@
+{
+  "description": "The extension copy in your clipboard the direct url from a video file when you are on the html5 player page on 1fichier.",
+  "manifest_version": 2,
+  "name": "1fichierCopy",
+  "author": "Valentin Commenge <txreplay@gmail.com>",
+  "version": "1.0",
+  "homepage_url": "https://github.com/txreplay/1fichierCopy-firefox",
+  "icons": {
+    "48": "icons/1fichier.png"
+  },
+  "permissions": [
+    "activeTab",
+    "clipboardWrite"
+  ],
+  "browser_action": {
+    "default_title": "1fichierCopy",
+    "default_icon": "icons/1fichier.png",
+    "default_popup": "popup/popup.html"
+  }
+}
